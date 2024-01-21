@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" type="image/x-icon" href="assets/fav-icon.png">
+    <title>URL Shortener</title>
+</head>
+<body>
+    <div class="container">
+        <h2 class="montserrat">Transform long URL's into short URL's in just a click!</h2>
+        <div class="w3-card-2 w3-black">
+            <div class="w3-container w3-center">
+                <i class="fa-solid fa-globe"></i>
+                <h3 class="montserrat">URL Shortening tool</h3>
+                <br>
+                <label for="originalURL" class="montserrat">Enter the URL that you want to shorten :</label>
+                <br>
+                <input type="text" id="originalURL" class="w3-input w3-animate-input montserrat" placeholder="https://www.example.com">
+            </div>
+            <br>
+            <div class="w3-container w3-center">
+                <button id="shortBTN" class="w3-btn w3-green montserrat">Shorten URL</button>
+                <br>
+                <button id="resetBTN" class="w3-btn w3-red montserrat">Reset</button>
+            </div>
+            <br>
+            <div class="w3-container w3-center">
+                <label for="shortURL" class="montserrat">Shortened URL :</label>
+                <textarea id="shortURL" class="montserrat" rows="3" readonly></textarea>
+            </div>
+        </div>
+    </div>
+    <footer>
+        <h6 class="montserrat">Icon by <a href="https://fontawesome.com/">fontawesome</a>❤️</h6>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

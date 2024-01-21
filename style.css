@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+.container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
+    margin: 0;
+    padding: 20px;
+    background-image: url(/assets/wallpaper\ minimalistic\ black.jpg);
+    background-size: cover;
+}
+
+.w3-card-2 {
+    width: 370px;
+    height: 470px;
+    border-radius: 15px;
+    padding: 10px;
+}
+
+.w3-container {
+    display: grid;
+    place-items: center;
+    padding: 5px;
+}
+
+.w3-input {
+    width: 75%;
+    border-radius: 10px;
+}
+
+.w3-btn {
+    border-radius: 8px;
+}
+
+#shortURL {
+    width: 80%;
+    border-radius: 10px;
+}
+
+.montserrat {
+    font-family: 'Montserrat', sans-serif;
+}
+
+textarea {
+    resize: none;
+}
+
+.container h2 {
+    font-weight: 600;
+    background: -webkit-linear-gradient(#ACE1AF, #03C03C);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+footer {
+    display: grid;
+    place-items: center;
+    background-color: black;
+}
+
+footer h6 {
+    color: white;
+}
